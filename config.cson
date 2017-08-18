@@ -3,7 +3,10 @@
     ignored: [
       "linter-ui-default"
     ]
-  core: {}
+  core:
+    disabledPackages: [
+      "terminal-plus"
+    ]
   "exception-reporting":
     userId: "5dee48bf-c30f-4bd7-98d1-176f0970d85d"
   "linter-ui-default":
