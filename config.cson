@@ -3,13 +3,24 @@
     ignored: [
       "linter-ui-default"
     ]
+  "autocomplete-paths":
+    maxFileCount: 4000
   core:
     disabledPackages: [
       "terminal-plus"
+      "pretty-json"
+      "script"
+      "show-ideographic-space"
+      "tag"
     ]
+    telemetryConsent: "no"
   "exception-reporting":
     userId: "5dee48bf-c30f-4bd7-98d1-176f0970d85d"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
+  react: {}
+  "sync-settings":
+    _lastBackupHash: "d39aea7db427c9f0a7a3834d9dd1aca1967e184d"
+    gistId: "4129a3c8391eb47c6c1fbd48bd4aae56"
+    personalAccessToken: "14619f132a369481badca016fc92de55bea0254f"
   welcome:
     showOnStartup: false
